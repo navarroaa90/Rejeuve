@@ -10,7 +10,7 @@ const NavBar = (props) => {
       <ul id="nav-mobile" className="left hide-on-med-and-down">
         <li><Link className='home-page' to="/">Home</Link></li>
         <li><Link className='price-page' to="/pricing">Prices</Link></li>
-        <li><a href="badges.html">About Me</a></li>
+        <li><Link className='aboutme-page' to="/aboutme">About Me</Link></li>
         <li><a href="collapsible.html">Contact Me</a></li>
       </ul>
     </div>
