@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+
+  
+  .page-footer {
+      background: linear-gradient(to right, rgb(251, 211, 233), rgb(187, 55, 125));
+      
+  }
+
+  .footer-copyright {
+      color: black;
+  }

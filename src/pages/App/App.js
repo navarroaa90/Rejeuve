@@ -9,7 +9,7 @@ import HomePage from '../HomePage/Homepage'
 import Prices from '../Prices/Prices'
 import AboutMe from '../AboutMe/AboutMe'
 import ContactMe from '../ContactMe/ContactMe'
-
+import Footer from '../../components/footer/footer'
 class App extends Component {
   render() {
     return (
@@ -18,6 +18,7 @@ class App extends Component {
        <Switch>
          <Route exact path='/' render={() =>
          <HomePage /> 
+         
             } />
          <Route exact path='/pricing' render={() =>
          <Prices />
@@ -29,6 +30,7 @@ class App extends Component {
         <ContactMe /> 
             } />
         </Switch>
+        <Footer />
       </div>
     );
   }

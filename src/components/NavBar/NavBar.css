@@ -1,3 +1,15 @@
 .nav-wrapper {
-    background-color: pink!important;
+    background-color: white;
+    
+}
+
+.home-page, 
+.price-page, 
+.aboutme-page,
+.contact-page {
+    color: black;
+}
+
+.brand-logo.right {
+    color: pink;;
 }
