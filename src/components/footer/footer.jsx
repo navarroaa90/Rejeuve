@@ -15,7 +15,7 @@ const Footer = () => {
           </div>
           <div className="footer-copyright">
             <div className="container">
-            © 2017 Rejeuve Pilates
+            © 2018 Rejeuve Pilates. All rights reserved.
             <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
           </div>

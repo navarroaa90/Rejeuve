@@ -25,12 +25,14 @@ const AboutMe = (props) => {
        <p> I look forward to meeting you!</p><br/>
        <p>Lori Navarro</p><br/>
        <h5>Qualifications</h5>
-            <ul>
-                <li>Body Arts and Sciences International and Pilates Method Alliance Certified Pilates Instructor</li>
-                <li>ACE Group Fitness Instructor</li>
-                <li>Pre and Post Natal Pilates Specialist and  Pilates for Injuries and Pathologies Certification</li>
-                <li>Booty Barre, TRX, Indorow, MOTR Certified Instructor</li>
-                <li>Registered Nurse and BS Degree in International Business/French Minor</li>
+            <ul class="collection">
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>
+Body Arts and Sciences International and Pilates Method Alliance Certified Pilates Instructor</li>
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>ACE Group Fitness Instructor</li>
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>Pre and Post Natal Pilates Specialist and  Pilates for Injuries and Pathologies Certification</li>
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>Booty Barre, TRX, Indorow, MOTR Certified Instructor</li>
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>Registered Nurse and BS Degree in International Business/French Minor</li>
+                <li class="collection-item"><i className="tiny material-icons">keyboard_arrow_right</i>CPR/AED Certified</li>
             </ul>
 
        </div>
