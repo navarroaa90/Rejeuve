@@ -7,7 +7,7 @@ const NavBar = (props) => {
       <div className="navbar-fixed">
         <nav>
     <div className="nav-wrapper">
-      <a href="#" className="brand-logo right">Rejeuve Pilates</a>
+      <h6 className="brand-logo right">Rejeuve Pilates</h6>
       <ul id="nav-mobile" className="left hide-on-med-and-down">
         <li><Link className='home-page' to="/">Home</Link></li>
         <li><Link className='price-page' to="/pricing">Services</Link></li>

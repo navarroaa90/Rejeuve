@@ -3,7 +3,7 @@
     box-shadow: 5px 4px 9px 1px
 }
 
-.p {
-    color: white;
-}
-
+.p.left-align.light {
+    font-family: 'Poppins', sans-serif;
+    
+  }
